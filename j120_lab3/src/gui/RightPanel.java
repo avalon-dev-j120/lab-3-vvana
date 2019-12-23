@@ -32,7 +32,7 @@ public class RightPanel extends JPanel{
         sliderBlue.setPaintLabels(true);
         sliderBlue.addChangeListener(Okno.okno);
          
-        setLayout (new BorderLayout());
+        setLayout (new BorderLayout());                                         // установка разметки
         add(sliderRed, BorderLayout.NORTH);
         add(sliderGreen, BorderLayout.CENTER);
         add(sliderBlue, BorderLayout.SOUTH);

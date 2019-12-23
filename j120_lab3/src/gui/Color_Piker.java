@@ -5,7 +5,7 @@ import javax.swing.SwingUtilities;
 public class Color_Piker {
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater((Runnable) new Okno());
+        SwingUtilities.invokeLater(() -> Okno.getInstance());
  
     }
  }
